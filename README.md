@@ -1,3 +1,3 @@
 # odin-recipes
 Website for recipes 
-Project 1. Creating an HTML website that lists my favouroite recipes. This will test my ability to create a website from a boilerplate after setting up Git/GitHub and my directories/files correctly. I will then need to create a boilerplate, include headings, lists, links to other pages, images and dimensions, and text styles, and finally make the website visible online.
+Project 1: Create an HTML website that lists recipes. I will set up Git/GitHub and directories/files correctly, then create an HTML boilerplate and enter headings, lists, links to other pages, images and dimensions, and text styles. Finally, I will make the website visible online.
