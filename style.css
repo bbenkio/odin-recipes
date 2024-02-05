@@ -1,12 +1,38 @@
 body {
-
     background-image: url(./images/background.jpg);
-    height:fit-content;
-    width: fit-content
+    border-image-width: auto;
 }
 
 .title {
-
+  font-size: 40px;
+  color: whitesmoke;
   text-align: center;
   margin: 8px 8px;
 }
+
+.recipe-1 {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 700px;
+    padding: 5px;
+    background-color: aqua;
+}
+
+.recipe-2 {
+    font-size: 100px;
+    margin: 16px auto;
+    background-color: antiquewhite;
+}
+
+.recipe-3 {
+    font-size: 100px;
+    margin: 16px auto;
+
+}
+
+.recipe-4 {
+    font-size: 100px;
+    margin: 16px auto;
+
+}
+
