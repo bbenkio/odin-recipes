@@ -1,6 +1,5 @@
 body {
     background-image: url(./images/background.jpg);
-    border-image-width: auto;
 }
 
 .title {
@@ -10,29 +9,36 @@ body {
   margin: 8px 8px;
 }
 
+.header-1, .header-2, .header-3, .header-4 {
+
+    color: white;
+}
+
 .recipe-1 {
-    font-size: 20px;
-    text-align: center;
-    margin-right: 700px;
-    padding: 5px;
-    background-color: aqua;
+   
 }
 
 .recipe-2 {
-    font-size: 100px;
-    margin: 16px auto;
-    background-color: antiquewhite;
+
+}
 }
 
 .recipe-3 {
-    font-size: 100px;
-    margin: 16px auto;
+  
 
 }
 
 .recipe-4 {
-    font-size: 100px;
-    margin: 16px auto;
 
 }
 
+.recipe-1, .recipe-2, .recipe-3, .recipe-4 {
+
+    font-size: 20px;
+    text-align: center;
+    border: 8px solid yellow;
+    padding: 4px 4px;
+    background-color: rgba(23, 166, 255, 0.768); 
+    margin: 8px 8px;
+    margin-bottom: 8px;
+}
