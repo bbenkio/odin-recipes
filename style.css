@@ -9,6 +9,24 @@ body {
   margin: 4px 4px;
 }
 
+.dog {
+    float: bottom;
+    height: 13px;
+    width: 50px;
+    position: absolute;
+    animation: moveRight 5s linear infinite;
+}
+
+@keyframes moveRight {
+
+    0% {
+        left: -100%
+      }
+      100% {
+        left: 100%;
+      }
+    }
+
 .image {
     background-color: transparent;
     height: 1000px;
@@ -16,7 +34,6 @@ body {
 }
 
 .header-1, .header-2, .header-3, .header-4 {
-
     color: white;
 }
 
