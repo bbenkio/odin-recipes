@@ -1,0 +1,12 @@
+body {
+
+    background-image: url(./images/background.jpg);
+    height:fit-content;
+    width: fit-content
+}
+
+.title {
+
+  text-align: center;
+  margin: 8px 8px;
+}
