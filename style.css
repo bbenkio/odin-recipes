@@ -14,7 +14,7 @@ body {
     height: 15px;
     width: 50px;
     position: absolute;
-    animation: moveRight 10s linear infinite;
+    animation: moveRight 12s linear infinite;
     margin-bottom: 200px;
 }
 
@@ -25,7 +25,7 @@ body {
       }
     
       100% {
-        left: 150%;
+        left: 100%;
       }
 
     }
@@ -34,11 +34,10 @@ body {
         height: 15px;
         width: 50px;
         position: absolute;
-        animation: moveNext 9s linear infinite;
-        animation-delay: 7s;
-        margin-top: 290px;
+        animation: moveNext 12s linear infinite;
+        margin-top: 250px;
         margin-right: 1000px;
-
+        animation-delay: 6s;
     }
     
     @keyframes moveNext {
@@ -59,66 +58,73 @@ body {
 
 .recipe-1 {
    float: left;
+   background-image: url(../odin-recipes/images/Tokyo.jpg);
+   background-size: cover;
 } 
 
 .recipe-2 {
     margin-left: 25px;
     float: left;
-    margin-right: 60px;
+    margin-right: 50px;
+    background-image: url(../odin-recipes/images/conference.jpg);
+    background-size: cover;
 }
 
 .recipe-3 {
     margin-left: 25px;
     float: left;
+    background-image: url(../odin-recipes/images/girl.jpg);
+    background-size: cover;
     
 }
 
 .recipe-4 {
     float: left;
     margin-left: 25px;
+    background-image: url(../odin-recipes/images/kyoto.jpg);
+    background-size: cover;
 }
 
 .recipe-5 {
     float: left;
+    background-image: url(../odin-recipes/images/forest.jpg);
+    background-size: cover;
  }
  
  .recipe-6 {
      margin-left: 25px;
      float: left;
-     margin-right: 60px;
+     margin-right: 50px;
+     background-image: url(../odin-recipes/images/beach.jpg);
+     background-size: cover;
  }
  
  .recipe-7 {
      margin-left: 25px;
      float: left;
-     
+     background-image: url(../odin-recipes/images/goodluck.jpg);
+     background-size: cover;
  }
  
  .recipe-8 {
      float: left;
      margin-left: 25px;
+     background-image: url(../odin-recipes/images/Actor-Crying.jpg);
+     background-size: cover;
  }
+ 
 
 .recipe-1, .recipe-2, .recipe-3, .recipe-4, .recipe-5, .recipe-6, .recipe-7, .recipe-8 {
-    font-size: 20px;
-    font-family: monospace;
-    text-align: center;
     width: 300px;
     border: 4px solid rgba(255, 0, 0, 0.714);
-    padding: 10px 10px;
-    background-color: rgba(37, 80, 208, 0.719); 
-    margin-top: 200px;
-
+    padding: 100px 10px;
 }
 
 .recipe-5, .recipe-6, .recipe-7, .recipe-8 {
-    font-size: 20px;
-    font-family: monospace;
-    text-align: center;
     width: 300px;
     border: 4px solid rgba(255, 0, 0, 0.714);
-    padding: 10px 10px;
+    padding: 100px 10px;
     background-color: rgba(37, 80, 208, 0.719); 
-    margin-top: 100px;
+    margin-top: 50px;
 
 } 
